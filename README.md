@@ -4,7 +4,7 @@ Decentralized archive and media portal
 
 ## Description
 
-The purpose of Media Mirror is to archive and index resources using a decentralized storage backends. Media Mirror targets [resources](Resource) and uses [fetcher](Fetcher) to retrieve the resource data. Media Mirror then can [version](Version) the resource data and store the version data in a [version storage](version storage).
+The purpose of Media Mirror is to archive and index resources using a decentralized storage backends. Media Mirror targets [resources](README.md#resource) and uses [fetcher](README.md#fetcher) to retrieve the resource data. Media Mirror then can [version](README.md#version) the resource data and store the version data in a [version storage](README.md#version-storage).
 
 ### Resource
 
@@ -16,11 +16,11 @@ Fetchers are applications or methods used to download the resource data. A fetch
 
 ### Version
 
-A fetcher will create a version of a resource. Each user can independently verify or ignore a version in their archive. Versions are linked to the [resource](Resource) and [fetcher](Fetcher) used to create the version. Versions can have multiple [version storage](version storage) instances.
+A fetcher will create a version of a resource. Each user can independently verify or ignore a version in their archive. Versions are linked to the [resource](README.md#resource) and [fetcher](README.md#fetcher) used to create the version. Versions can have multiple [version storage](README.md#version-storage) instances.
 
 ### Version Storage
 
-Version storage is a reference to the version data. A version storage is linked to one [version](Version). A version storage example could be a torrent hash or magnet link or an IPFS URL.
+Version storage is a reference to the version data. A version storage is linked to one [version](README.md#version). A version storage example could be a torrent hash or magnet link or an IPFS URL.
 
 ## Roadmap
 
